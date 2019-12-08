@@ -13,7 +13,7 @@ namespace BMIUnitTestProject
             BMI bmi = new BMI() { WeightStones = 12, WeightPounds = 0, HeightFeet = 5, HeightInches = 10 };
             Assert.AreEqual(bmi.BMICategory, BMICategory.Normal);
         }
-
+  
 
 
         [TestMethod]
